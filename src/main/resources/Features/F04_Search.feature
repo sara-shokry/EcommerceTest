@@ -11,3 +11,14 @@ Examples:
   | keyWord |
   | Apple |
   | Lenovo |
+
+  Scenario Outline: user could search for product using sku
+    Given Select searchBox
+    When search for any product sku "<sku>"
+    And click search
+    Then verfiy sku shown in each product list
+
+
+    Examples:
+      | sku |
+      | SF_PRO_11 |
