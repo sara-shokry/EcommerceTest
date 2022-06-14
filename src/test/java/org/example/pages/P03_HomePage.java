@@ -48,4 +48,15 @@ public class P03_HomePage {
         return Hooks.driver.findElement(By.xpath("//ul[@class=\"top-menu notmobile\"]/li[1]/ ul[1]/li/ a"));
 
     }
+
+    /* Social NW POMs */
+    public WebElement facebookPOM() {
+        return Hooks.driver.findElement(By.cssSelector("li[class=\"facebook\"]"));
+    }
+    public WebElement twitterPOM() {
+        return Hooks.driver.findElement(By.cssSelector("li[class=\"twitter\"]"));
+    }
+    public WebElement rrsPOM() {
+        return Hooks.driver.findElement(By.cssSelector("li[class=\"rss\"]"));
+    }
 }
