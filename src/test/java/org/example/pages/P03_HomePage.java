@@ -71,5 +71,8 @@ public class P03_HomePage {
         return Hooks.driver.findElement(By.xpath("//div[@class=\"bar-notification success\"]/p"));
 
     }//
+    public WebElement sliderNavigation(int index){
+        return Hooks.driver.findElement(By.xpath("//div[@class=\"nivo-controlNav\"]/a["+index+"]"));
 
+    }
 }

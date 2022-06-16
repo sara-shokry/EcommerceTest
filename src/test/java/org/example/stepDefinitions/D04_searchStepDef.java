@@ -59,19 +59,11 @@ public class D04_searchStepDef {
     public void verfiySKU() throws InterruptedException {
         List<WebElement> productTitleList = homePage.productTitleList();
         Assert.assertTrue(productTitleList.size() == 1);
-//        for (int i = 0; i < productTitleList.size(); i++) {
-//            // click on product title
-//            productTitleList.get(i).click();
-//            Thread.sleep(2000);
-//            String acutalSKU = productPage.skuPOM().getText();
-//            System.out.println("acutal sku -------- " + acutalSKU);
-//            Assert.assertTrue(acutalSKU.contains(sku));
-//        }
 //| SCI_FAITHA |
 //      | PPLE_CAM |
         productTitleList.get(0).click();
             Thread.sleep(2000);
-        System.out.println("Current url -------- " + Hooks.driver.getCurrentUrl());
+            System.out.println("Current url -------- " + Hooks.driver.getCurrentUrl());
             String acutalSKU = productPage.skuPOM().getText();
 
             System.out.println("acutal sku -------- " + acutalSKU);
