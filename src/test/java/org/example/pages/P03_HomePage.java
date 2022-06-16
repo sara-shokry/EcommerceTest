@@ -59,4 +59,17 @@ public class P03_HomePage {
     public WebElement rrsPOM() {
         return Hooks.driver.findElement(By.cssSelector("li[class=\"rss\"]"));
     }
+
+    public List<WebElement>wishListButtonPOM() {
+        return Hooks.driver.findElements(By.className("add-to-wishlist-button"));
+    }
+    public WebElement notificationBarPOM(){
+       return Hooks.driver.findElement(By.id("bar-notification"));
+    }
+    public WebElement notificationBarContentPOM(){
+        //return Hooks.driver.findElement(By.cssSelector("bar-notification"));
+        return Hooks.driver.findElement(By.xpath("//div[@class=\"bar-notification success\"]/p"));
+
+    }//
+
 }
