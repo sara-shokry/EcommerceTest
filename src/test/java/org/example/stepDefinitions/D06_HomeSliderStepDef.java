@@ -34,7 +34,7 @@ public class D06_HomeSliderStepDef {
     @Then("^verfiy second link \"(.*)\"$")
     public void verfiySecondSlideLink (String secondLink) throws InterruptedException{
         String actualURl =  Hooks.driver.getCurrentUrl();
-        Assert.assertTrue(actualURl.ea(secondLink));
+        Assert.assertTrue(actualURl.contains(secondLink));
     }
 
 
