@@ -1,3 +1,4 @@
+@regression
 Feature:  currency feature |  User could change currency to Euro
 
   Scenario: Select Euro currency from the dropdown list and make sure all products changed

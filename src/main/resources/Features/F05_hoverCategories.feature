@@ -1,3 +1,4 @@
+@regression
 Feature:  Categories feature |  select different Categories
 
  Scenario: user could select different Categories

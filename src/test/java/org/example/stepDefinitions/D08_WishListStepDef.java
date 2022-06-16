@@ -21,7 +21,7 @@ public class D08_WishListStepDef {
     @Then("verfiy success message displayed")
     public void verfiy_success_message(){
         String actualMsg = homePage.notificationBarContentPOM().getText();
-        Assert.assertTrue(actualMsg.contains("The product has been added to your "));
+        Assert.assertTrue(actualMsg.contains("The product has been added to your"));
     }
     @And("green background")
     public void checkGreenBackground(){

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.runner.Runner" time="121.394" tests="13" errors="2" skipped="0" failures="2">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/sara/IdeaProjects/EcommerceTest/target/test-classes:/Users/sara/IdeaProjects/EcommerceTest/target/classes:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-java/4.1.4/selenium-java-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-api/4.1.4/selenium-api-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.1.4/selenium-chrome-driver-4.1.4.jar:/Users/sara/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/sara/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/sara/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/sara/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/sara/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/sara/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/sara/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/sara/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/sara/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/sara/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.1.4/selenium-chromium-driver-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-json/4.1.4/selenium-json-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v100/4.1.4/selenium-devtools-v100-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v101/4.1.4/selenium-devtools-v101-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.1.4/selenium-devtools-v85-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v99/4.1.4/selenium-devtools-v99-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.1.4/selenium-edge-driver-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.1.4/selenium-firefox-driver-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.1.4/selenium-ie-driver-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.1.4/selenium-opera-driver-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.1.4/selenium-remote-driver-4.1.4.jar:/Users/sara/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/sara/.m2/repository/io/netty/netty-buffer/4.1.76.Final/netty-buffer-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-codec-http/4.1.76.Final/netty-codec-http-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-codec/4.1.76.Final/netty-codec-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-handler/4.1.76.Final/netty-handler-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-common/4.1.76.Final/netty-common-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.76.Final/netty-transport-classes-epoll-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.76.Final/netty-transport-classes-kqueue-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-transport-native-epoll/4.1.76.Final/netty-transport-native-epoll-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.76.Final/netty-transport-native-kqueue-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.76.Final/netty-transport-native-unix-common-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-transport/4.1.76.Final/netty-transport-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-resolver/4.1.76.Final/netty-resolver-4.1.76.Final.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-api/1.13.0/opentelemetry-api-1.13.0.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-context/1.13.0/opentelemetry-context-1.13.0.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.13.0/opentelemetry-exporter-logging-1.13.0.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.13.0-alpha/opentelemetry-sdk-metrics-1.13.0-alpha.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.13.0-alpha/opentelemetry-sdk-logs-1.13.0-alpha.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.13.0/opentelemetry-sdk-common-1.13.0.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.13.0/opentelemetry-sdk-extension-autoconfigure-spi-1.13.0.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.13.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.13.0-alpha.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.13.0/opentelemetry-sdk-trace-1.13.0.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.13.0/opentelemetry-sdk-1.13.0.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.13.0-alpha/opentelemetry-semconv-1.13.0-alpha.jar:/Users/sara/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/sara/.m2/repository/net/bytebuddy/byte-buddy/1.12.9/byte-buddy-1.12.9.jar:/Users/sara/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sara/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/sara/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/sara/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/sara/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/sara/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/sara/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/sara/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/sara/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/sara/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/sara/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-http/4.1.4/selenium-http-4.1.4.jar:/Users/sara/.m2/repository/dev/failsafe/failsafe/3.2.3/failsafe-3.2.3.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.1.4/selenium-safari-driver-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-support/4.1.4/selenium-support-4.1.4.jar:/Users/sara/.m2/repository/io/cucumber/cucumber-java/7.3.4/cucumber-java-7.3.4.jar:/Users/sara/.m2/repository/io/cucumber/cucumber-core/7.3.4/cucumber-core-7.3.4.jar:/Users/sara/.m2/repository/io/cucumber/cucumber-gherkin/7.3.4/cucumber-gherkin-7.3.4.jar:/Users/sara/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.3.4/cucumber-gherkin-messages-7.3.4.jar:/Users/sara/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/sara/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/sara/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/sara/.m2/repository/io/cucumber/cucumber-expressions/15.1.1/cucumber-expressions-15.1.1.jar:/Users/sara/.m2/repository/io/cucumber/datatable/7.3.4/datatable-7.3.4.jar:/Users/sara/.m2/repository/io/cucumber/cucumber-plugin/7.3.4/cucumber-plugin-7.3.4.jar:/Users/sara/.m2/repository/io/cucumber/docstring/7.3.4/docstring-7.3.4.jar:/Users/sara/.m2/repository/io/cucumber/html-formatter/19.1.0/html-formatter-19.1.0.jar:/Users/sara/.m2/repository/io/cucumber/ci-environment/9.0.4/ci-environment-9.0.4.jar:/Users/sara/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/sara/.m2/repository/io/cucumber/cucumber-junit/7.3.4/cucumber-junit-7.3.4.jar:/Users/sara/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/sara/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="user.country.format" value="EG"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/sara/IdeaProjects/EcommerceTest/target/surefire/surefirebooter5840884648781734341.jar /Users/sara/IdeaProjects/EcommerceTest/target/surefire 2022-06-16T12-50-49_314-jvmRun1 surefire5424834602753636593tmp surefire_04707736914275057110tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/sara/IdeaProjects/EcommerceTest/target/test-classes:/Users/sara/IdeaProjects/EcommerceTest/target/classes:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-java/4.1.4/selenium-java-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-api/4.1.4/selenium-api-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.1.4/selenium-chrome-driver-4.1.4.jar:/Users/sara/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/sara/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/sara/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/sara/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/sara/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/sara/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/sara/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/sara/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/sara/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/sara/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.1.4/selenium-chromium-driver-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-json/4.1.4/selenium-json-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v100/4.1.4/selenium-devtools-v100-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v101/4.1.4/selenium-devtools-v101-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.1.4/selenium-devtools-v85-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v99/4.1.4/selenium-devtools-v99-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.1.4/selenium-edge-driver-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.1.4/selenium-firefox-driver-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.1.4/selenium-ie-driver-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.1.4/selenium-opera-driver-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.1.4/selenium-remote-driver-4.1.4.jar:/Users/sara/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/sara/.m2/repository/io/netty/netty-buffer/4.1.76.Final/netty-buffer-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-codec-http/4.1.76.Final/netty-codec-http-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-codec/4.1.76.Final/netty-codec-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-handler/4.1.76.Final/netty-handler-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-common/4.1.76.Final/netty-common-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.76.Final/netty-transport-classes-epoll-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.76.Final/netty-transport-classes-kqueue-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-transport-native-epoll/4.1.76.Final/netty-transport-native-epoll-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.76.Final/netty-transport-native-kqueue-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.76.Final/netty-transport-native-unix-common-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-transport/4.1.76.Final/netty-transport-4.1.76.Final.jar:/Users/sara/.m2/repository/io/netty/netty-resolver/4.1.76.Final/netty-resolver-4.1.76.Final.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-api/1.13.0/opentelemetry-api-1.13.0.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-context/1.13.0/opentelemetry-context-1.13.0.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.13.0/opentelemetry-exporter-logging-1.13.0.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.13.0-alpha/opentelemetry-sdk-metrics-1.13.0-alpha.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.13.0-alpha/opentelemetry-sdk-logs-1.13.0-alpha.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.13.0/opentelemetry-sdk-common-1.13.0.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.13.0/opentelemetry-sdk-extension-autoconfigure-spi-1.13.0.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.13.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.13.0-alpha.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.13.0/opentelemetry-sdk-trace-1.13.0.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.13.0/opentelemetry-sdk-1.13.0.jar:/Users/sara/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.13.0-alpha/opentelemetry-semconv-1.13.0-alpha.jar:/Users/sara/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/sara/.m2/repository/net/bytebuddy/byte-buddy/1.12.9/byte-buddy-1.12.9.jar:/Users/sara/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sara/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/sara/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/sara/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/sara/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/sara/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/sara/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/sara/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/sara/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/sara/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/sara/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-http/4.1.4/selenium-http-4.1.4.jar:/Users/sara/.m2/repository/dev/failsafe/failsafe/3.2.3/failsafe-3.2.3.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.1.4/selenium-safari-driver-4.1.4.jar:/Users/sara/.m2/repository/org/seleniumhq/selenium/selenium-support/4.1.4/selenium-support-4.1.4.jar:/Users/sara/.m2/repository/io/cucumber/cucumber-java/7.3.4/cucumber-java-7.3.4.jar:/Users/sara/.m2/repository/io/cucumber/cucumber-core/7.3.4/cucumber-core-7.3.4.jar:/Users/sara/.m2/repository/io/cucumber/cucumber-gherkin/7.3.4/cucumber-gherkin-7.3.4.jar:/Users/sara/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.3.4/cucumber-gherkin-messages-7.3.4.jar:/Users/sara/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/sara/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/sara/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/sara/.m2/repository/io/cucumber/cucumber-expressions/15.1.1/cucumber-expressions-15.1.1.jar:/Users/sara/.m2/repository/io/cucumber/datatable/7.3.4/datatable-7.3.4.jar:/Users/sara/.m2/repository/io/cucumber/cucumber-plugin/7.3.4/cucumber-plugin-7.3.4.jar:/Users/sara/.m2/repository/io/cucumber/docstring/7.3.4/docstring-7.3.4.jar:/Users/sara/.m2/repository/io/cucumber/html-formatter/19.1.0/html-formatter-19.1.0.jar:/Users/sara/.m2/repository/io/cucumber/ci-environment/9.0.4/ci-environment-9.0.4.jar:/Users/sara/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/sara/.m2/repository/io/cucumber/cucumber-junit/7.3.4/cucumber-junit-7.3.4.jar:/Users/sara/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/sara/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/sara"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/sara/IdeaProjects/EcommerceTest"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/sara/IdeaProjects/EcommerceTest/target/surefire/surefirebooter5840884648781734341.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="user.name" value="sara"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/sara/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/cf/3py17lb10cd9lgdsj50y0sl00000gn/T/"/>
+    <property name="idea.version" value="2022.1.1"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="user.dir" value="/Users/sara/IdeaProjects/EcommerceTest"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/sara/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="java.ext.dirs" value="/Users/sara/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="user registered with valid data" classname="register feature |  User could register with valid data" time="14.412"/>
+  <testcase name="user logged in  with valid data" classname="Login feature |  User could login with valid data" time="11.517"/>
+  <testcase name="Select Euro currency from the dropdown list and make sure all products changed" classname="currency feature |  User could change currency to Euro" time="6.373"/>
+  <testcase name="user could search using product name #1" classname="search feature |  User could search by product name or sku" time="14.275"/>
+  <testcase name="user could search using product name #2" classname="search feature |  User could search by product name or sku" time="14.688"/>
+  <testcase name="user could search for product using sku" classname="search feature |  User could search by product name or sku" time="14.93"/>
+  <testcase name="user could select different Categories" classname="Categories feature |  select different Categories" time="3.502">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;Saras-Mac-mini-2.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_91&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d8b2bbc5f6fc1d5156cc506e4e023f17, findElement {using=xpath, value=//ul[@class=&quot;top-menu notmobile&quot;]/li/ a[@href=&quot;/computers&quot;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/cf/3py17lb10cd...}, goog:chromeOptions: {debuggerAddress: localhost:55636}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55636/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d8b2bbc5f6fc1d5156cc506e4e023f17" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Saras-Mac-mini-2.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8b2bbc5f6fc1d5156cc506e4e023f17, findElement {using=xpath, value=//ul[@class="top-menu notmobile"]/li/ a[@href="/computers"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/cf/3py17lb10cd...}, goog:chromeOptions: {debuggerAddress: localhost:55636}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55636/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d8b2bbc5f6fc1d5156cc506e4e023f17
+]]></error>
+    <system-out><![CDATA[
+@regression
+Scenario: user registered with valid data        &amp#27;[90m# src/main/resources/Features/F01_ValidRegistration.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to registration page&amp#27;[0m       &amp#27;[90m# org.example.stepDefinitions.D01_RegistrationStepDef.navigate_to_registration()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter valid data "&amp#27;[0m&amp#27;[32m&amp#27;[1mSara&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1mShokry&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# org.example.stepDefinitions.D01_RegistrationStepDef.enterValidRegistrationData(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on register button&amp#27;[0m              &amp#27;[90m# org.example.stepDefinitions.D01_RegistrationStepDef.click_registration_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser could registered successfully&amp#27;[0m        &amp#27;[90m# org.example.stepDefinitions.D01_RegistrationStepDef.success_registration()&amp#27;[0m
+
+@regression
+Scenario: user logged in  with valid data                   &amp#27;[90m# src/main/resources/Features/F02_Login.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to login page&amp#27;[0m                         &amp#27;[90m# org.example.stepDefinitions.D02_LoginStepDef.navigate_to_login()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter "&amp#27;[0m&amp#27;[32m&amp#27;[1mtest1@gmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123456789&amp#27;[0m&amp#27;[32m"&amp#27;[0m         &amp#27;[90m# org.example.stepDefinitions.D02_LoginStepDef.enterValidRegistrationData(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on login button&amp#27;[0m                            &amp#27;[90m# org.example.stepDefinitions.D02_LoginStepDef.click_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser could loggedIn successfully and go to home page&amp#27;[0m &amp#27;[90m# org.example.stepDefinitions.D02_LoginStepDef.success_login()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32maccount tab is displayed&amp#27;[0m                              &amp#27;[90m# org.example.stepDefinitions.D02_LoginStepDef.accountTabDisplayed()&amp#27;[0m
+
+@regression
+Scenario: Select Euro currency from the dropdown list and make sure all products changed &amp#27;[90m# src/main/resources/Features/F03_currencies.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSelect Euro currency from the dropdown list&amp#27;[0m                                      &amp#27;[90m# org.example.stepDefinitions.D03_currenciesStepDef.Select_Euro_currency()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate currency changed for each product&amp#27;[0m                                        &amp#27;[90m# org.example.stepDefinitions.D03_currenciesStepDef.validateEuroPrice()&amp#27;[0m
+
+@regression
+Scenario Outline: user could search using product name    &amp#27;[90m# src/main/resources/Features/F04_Search.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSelect searchBox&amp#27;[0m                                  &amp#27;[90m# org.example.stepDefinitions.D04_searchStepDef.Select_searchBox()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32msearch for any product like "&amp#27;[0m&amp#27;[32m&amp#27;[1mApple&amp#27;[0m&amp#27;[32m"&amp#27;[0m                &amp#27;[90m# org.example.stepDefinitions.D04_searchStepDef.addSearchWord(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick search&amp#27;[0m                                        &amp#27;[90m# org.example.stepDefinitions.D04_searchStepDef.clickSearch()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mverfiy url contains nopCommerce demo store. Search&amp#27;[0m &amp#27;[90m# org.example.stepDefinitions.D04_searchStepDef.validateSearchUrl()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverfiy search shows relevant results&amp#27;[0m                &amp#27;[90m# org.example.stepDefinitions.D04_searchStepDef.verfiyShowResult()&amp#27;[0m
+
+@regression
+Scenario Outline: user could search using product name    &amp#27;[90m# src/main/resources/Features/F04_Search.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSelect searchBox&amp#27;[0m                                  &amp#27;[90m# org.example.stepDefinitions.D04_searchStepDef.Select_searchBox()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32msearch for any product like "&amp#27;[0m&amp#27;[32m&amp#27;[1mLenovo&amp#27;[0m&amp#27;[32m"&amp#27;[0m               &amp#27;[90m# org.example.stepDefinitions.D04_searchStepDef.addSearchWord(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick search&amp#27;[0m                                        &amp#27;[90m# org.example.stepDefinitions.D04_searchStepDef.clickSearch()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mverfiy url contains nopCommerce demo store. Search&amp#27;[0m &amp#27;[90m# org.example.stepDefinitions.D04_searchStepDef.validateSearchUrl()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverfiy search shows relevant results&amp#27;[0m                &amp#27;[90m# org.example.stepDefinitions.D04_searchStepDef.verfiyShowResult()&amp#27;[0m
+
+@regression
+Scenario Outline: user could search for product using sku &amp#27;[90m# src/main/resources/Features/F04_Search.feature:25&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSelect searchBox&amp#27;[0m                                  &amp#27;[90m# org.example.stepDefinitions.D04_searchStepDef.Select_searchBox()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32msearch for any product sku "&amp#27;[0m&amp#27;[32m&amp#27;[1mSF_PRO_11&amp#27;[0m&amp#27;[32m"&amp#27;[0m             &amp#27;[90m# org.example.stepDefinitions.D04_searchStepDef.addSearchSKU(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick search&amp#27;[0m                                        &amp#27;[90m# org.example.stepDefinitions.D04_searchStepDef.clickSearch()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mverfiy sku shown in each product list&amp#27;[0m              &amp#27;[90m# org.example.stepDefinitions.D04_searchStepDef.verfiySKU()&amp#27;[0m
+
+@regression
+Scenario: user could select different Categories &amp#27;[90m# src/main/resources/Features/F05_hoverCategories.feature:4&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mhover on categories&amp#27;[0m                      &amp#27;[90m# org.example.stepDefinitions.D05_hoverCategoriesStepDef.hover_on_category()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Saras-Mac-mini-2.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8b2bbc5f6fc1d5156cc506e4e023f17, findElement {using=xpath, value=//ul[@class="top-menu notmobile"]/li/ a[@href="/computers"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/cf/3py17lb10cd...}, goog:chromeOptions: {debuggerAddress: localhost:55636}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55636/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d8b2bbc5f6fc1d5156cc506e4e023f17
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.example.pages.P03_HomePage.computerCategoryPOM(P03_HomePage.java:42)
+	at org.example.stepDefinitions.D05_hoverCategoriesStepDef.hover_on_category(D05_hoverCategoriesStepDef.java:23)
+	at ✽.]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 54684
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 12:52:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 12:52:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 12:52:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="user could select first slider" classname="Homepage Slider feature |  user select one of slider and navigate to its page" time="4.982">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 61711
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 12:52:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 12:52:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 12:52:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="user could select second  slider" classname="Homepage Slider feature |  user select one of slider and navigate to its page" time="4.751">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 58576
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 12:52:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 12:52:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 12:52:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="user could select facebook icon" classname="Follow up  feature |  select different social network #1" time="7.932"/>
+  <testcase name="user could select twitter icon" classname="Follow up  feature |  select different social network #1" time="7.82"/>
+  <testcase name="user could select rss icon" classname="Follow up  feature |  select different social network #1" time="4.084">
+    <error message="Index: 1, Size: 1" type="java.lang.IndexOutOfBoundsException"><![CDATA[java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+]]></error>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 55452
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 12:52:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 12:52:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 12:52:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="Logged user could add different products to Wishlist" classname="Follow up  feature |  select different social network #2" time="10.771"/>
+</testsuite>

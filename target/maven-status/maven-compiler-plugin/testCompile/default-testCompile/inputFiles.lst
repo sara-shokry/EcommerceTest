@@ -1,0 +1,15 @@
+/Users/sara/IdeaProjects/EcommerceTest/src/test/java/org/example/pages/P02_LoginPage.java
+/Users/sara/IdeaProjects/EcommerceTest/src/test/java/org/example/pages/P03_HomePage.java
+/Users/sara/IdeaProjects/EcommerceTest/src/test/java/org/example/pages/P05_CategoryPage.java
+/Users/sara/IdeaProjects/EcommerceTest/src/test/java/org/example/stepDefinitions/D05_hoverCategoriesStepDef.java
+/Users/sara/IdeaProjects/EcommerceTest/src/test/java/org/example/stepDefinitions/D01_RegistrationStepDef.java
+/Users/sara/IdeaProjects/EcommerceTest/src/test/java/org/example/stepDefinitions/D03_currenciesStepDef.java
+/Users/sara/IdeaProjects/EcommerceTest/src/test/java/org/example/stepDefinitions/D06_HomeSliderStepDef.java
+/Users/sara/IdeaProjects/EcommerceTest/src/test/java/org/example/pages/P01_RegistrationPage.java
+/Users/sara/IdeaProjects/EcommerceTest/src/test/java/org/example/stepDefinitions/Hooks.java
+/Users/sara/IdeaProjects/EcommerceTest/src/test/java/org/example/stepDefinitions/D07_FollowUpStepDef.java
+/Users/sara/IdeaProjects/EcommerceTest/src/test/java/org/example/stepDefinitions/D08_WishListStepDef.java
+/Users/sara/IdeaProjects/EcommerceTest/src/test/java/org/example/runner/Runner.java
+/Users/sara/IdeaProjects/EcommerceTest/src/test/java/org/example/pages/P04_ProductPage.java
+/Users/sara/IdeaProjects/EcommerceTest/src/test/java/org/example/stepDefinitions/D04_searchStepDef.java
+/Users/sara/IdeaProjects/EcommerceTest/src/test/java/org/example/stepDefinitions/D02_LoginStepDef.java

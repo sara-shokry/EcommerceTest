@@ -81,7 +81,7 @@ public class P01_RegistrationPage {
         first_last_name(firstname,lastname);
         selectGender();
         select_date_of_birth();
-        emailPOM().sendKeys("test@gmail.com");
+        emailPOM().sendKeys("test2@gmail.com");
 
         passwordPOM().sendKeys("123456789");
         confirmPasswordPOM().sendKeys("123456789");

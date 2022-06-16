@@ -1,3 +1,4 @@
+@regression
 Feature:  search feature |  User could search by product name or sku
 
  Scenario Outline: user could search using product name

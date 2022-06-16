@@ -1,3 +1,4 @@
+@regression
 Feature:  Follow up  feature |  select different social network
 
  Scenario: user could select facebook icon

@@ -1,3 +1,4 @@
+@regression
 Feature:  Homepage Slider feature |  user select one of slider and navigate to its page
 
  Scenario: user could select first slider
