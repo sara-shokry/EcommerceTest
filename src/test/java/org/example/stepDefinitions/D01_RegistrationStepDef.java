@@ -20,7 +20,14 @@ public class D01_RegistrationStepDef {
 
     @When("^user enter valid data \"(.*)\" and \"(.*)\"$")
     public void enterValidRegistrationData(String firstName, String lastName){
-        registrationPage.registrationSteps(firstName,lastName);
+      //  registrationPage.registrationSteps(firstName,lastName,email);
+        registrationPage.first_last_name(firstName,lastName);
+        registrationPage.selectGender();
+        registrationPage.select_date_of_birth();
+        registrationPage.emailPOM().sendKeys("test5z8sd@gmail.com");
+
+        registrationPage.passwordPOM().sendKeys("123456789");
+        registrationPage.confirmPasswordPOM().sendKeys("123456789");
     }
 
     @And("user click on register button")
