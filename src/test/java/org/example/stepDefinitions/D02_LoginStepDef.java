@@ -32,11 +32,11 @@ public class D02_LoginStepDef {
     @Then("user could loggedIn successfully and go to home page")
     public void success_login () throws InterruptedException {
         Assert.assertEquals("https://demo.nopcommerce.com/", Hooks.driver.getCurrentUrl());
-        Assert.assertTrue("--------- Failed to login ----------",true);
+
     }
     @And("account tab is displayed")
     public void accountTabDisplayed() throws InterruptedException {
         Assert.assertTrue(loginPage.accountTab().isDisplayed());
-        Assert.assertTrue("--------- Failed to display account tab ----------",true);
+
     }
 }

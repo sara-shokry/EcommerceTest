@@ -15,3 +15,8 @@ Feature:  Follow up  feature |  select different social network
     Given user click on rss
     And switch to the next tab
     Then verfiy the rss url "https://demo.nopcommerce.com/news/rss/1"
+
+  Scenario: user could select youtube icon
+    Given user click on youtube
+    And switch to the next tab
+    Then verfiy the rss url "https://www.youtube.com/user/nopCommerce"

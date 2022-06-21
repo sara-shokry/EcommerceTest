@@ -59,6 +59,9 @@ public class P03_HomePage {
     public WebElement rrsPOM() {
         return Hooks.driver.findElement(By.cssSelector("li[class=\"rss\"]"));
     }
+    public WebElement youtubePOM() {
+        return Hooks.driver.findElement(By.cssSelector("li[class=\"youtube\"]"));
+    }
 
     public List<WebElement>wishListButtonPOM() {
         return Hooks.driver.findElements(By.className("add-to-wishlist-button"));

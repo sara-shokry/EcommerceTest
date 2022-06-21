@@ -60,4 +60,15 @@ public class D07_FollowUpStepDef {
         Assert.assertTrue(actualURl.contains(rrsUrl));
         Hooks.driver.close();
     }
+    @Given("user click on youtube")
+    public void youtube() throws InterruptedException {
+
+        homePage.youtubePOM().click();
+    }
+    @Then("^verfiy the youtube url \"(.*)\"$")
+    public void verfiyYoutubeLink(String url){
+        String actualURl = Hooks.driver.getCurrentUrl();
+        Assert.assertTrue(actualURl.contains(url));
+        Hooks.driver.close();
+    }
 }

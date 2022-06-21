@@ -33,7 +33,7 @@ public class D01_RegistrationStepDef {
     String expectedResult = "Your registration completed";
     String actualResult = registrationPage.resultPOM().getText();
           Assert.assertEquals(expectedResult, actualResult);
-          Assert.assertTrue("--------- Failed to register ----------",true);
+
 
    String expectedColor = "";
    //String actualColor = registrationPage.resultPOM().getCssValue("color");
